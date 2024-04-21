@@ -1,7 +1,7 @@
 .app {
   display: flex;
   flex-direction: column;
-  background-color: #2b3137;
+  background-color: #14171a;
   text-align: center;
 }
 
@@ -16,6 +16,12 @@
   display: flex;
   align-items: center;
   justify-content: center
+}
+
+.app-divider {
+  width: 100vw;
+  height: 1px;
+  background-color: rgb(59, 59, 59);
 }
 
 .app-header__socials {
@@ -35,7 +41,15 @@
 .app-intro {
   height: 700px;
   font-size: large;
+  text-align: left;
   color: #fafbfc;
+}
+
+.app-intro__projectmtf {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 1vw;
 }
 
 @keyframes App-airship-float {
