@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.e49eacf5.css",
-    "main.js": "/static/js/main.a4f3a24b.js",
+    "main.css": "/static/css/main.8bde0b48.css",
+    "main.js": "/static/js/main.a7bf3a9e.js",
+    "static/media/airship.png": "/static/media/airship.f1b340a495eada4875c0.png",
     "index.html": "/index.html",
-    "main.e49eacf5.css.map": "/static/css/main.e49eacf5.css.map",
-    "main.a4f3a24b.js.map": "/static/js/main.a4f3a24b.js.map"
+    "main.8bde0b48.css.map": "/static/css/main.8bde0b48.css.map",
+    "main.a7bf3a9e.js.map": "/static/js/main.a7bf3a9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e49eacf5.css",
-    "static/js/main.a4f3a24b.js"
+    "static/css/main.8bde0b48.css",
+    "static/js/main.a7bf3a9e.js"
   ]
 }
