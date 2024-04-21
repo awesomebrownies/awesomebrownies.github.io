@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.75fb41ac.css",
-    "main.js": "/static/js/main.ed346d26.js",
+    "main.css": "/static/css/main.1040b792.css",
+    "main.js": "/static/js/main.6a919a5a.js",
+    "static/media/damage_vignette.png": "/static/media/damage_vignette.f0c52b2fab96d63bf245.png",
     "static/media/project-mtf-facility.png": "/static/media/project-mtf-facility.d9fcf9afa136ae450eb6.png",
     "static/media/project-mtf-outside.png": "/static/media/project-mtf-outside.498d382cda37da95adc9.png",
+    "static/media/painted-map.png": "/static/media/painted-map.90d214c91afe164ad213.png",
     "static/media/airship.png": "/static/media/airship.f1b340a495eada4875c0.png",
     "static/media/project-mtf-award.png": "/static/media/project-mtf-award.d745af2f09000fb17243.png",
     "static/media/project-mtf.png": "/static/media/project-mtf.0da824526fe1c1693708.png",
+    "static/media/code-vsh.png": "/static/media/code-vsh.b6b7e494cce11d63b857.png",
+    "static/media/code-fsh.png": "/static/media/code-fsh.f16cfbc64add9478ce37.png",
     "index.html": "/index.html",
-    "main.75fb41ac.css.map": "/static/css/main.75fb41ac.css.map",
-    "main.ed346d26.js.map": "/static/js/main.ed346d26.js.map"
+    "main.1040b792.css.map": "/static/css/main.1040b792.css.map",
+    "main.6a919a5a.js.map": "/static/js/main.6a919a5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.75fb41ac.css",
-    "static/js/main.ed346d26.js"
+    "static/css/main.1040b792.css",
+    "static/js/main.6a919a5a.js"
   ]
 }
