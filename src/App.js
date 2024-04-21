@@ -6,6 +6,10 @@ import ProjectMTFFacility from './images/project-mtf-facility.png';
 import Airship from './images/airship.png';
 import ProjectMTF from './images/project-mtf.png';
 import ProjectMTFAward from './images/project-mtf-award.png';
+import PaintedMap from './images/painted-map.png';
+import CodeFSH from './images/code-fsh.png';
+import CodeVSH from './images/code-vsh.png';
+import DamageVignette from './images/damage_vignette.png';
 
 class App extends Component {
   render() {
@@ -30,7 +34,7 @@ class App extends Component {
         <div className="app-intro">
           <div className="app-intro__projectmtf">
 
-            <div style={{padding: '20px', width: '40%', color: '#BBBBBB'}}>Mobile Task Force Operatives are tasked with the objective of carrying out a certain missions, studying the anomalies, and gathering intel for the foundation.
+            <div style={{margin: '20px', width: '40%', color: '#BBBBBB'}}>Mobile Task Force Operatives are tasked with the objective of carrying out certain missions, studying the anomalies, and gathering intel for the foundation.
             
               <ul>
                 <li style={{marginBottom: '5px'}}>Immersive sound effects for the facility, forest, and helicopter drop-off</li>
@@ -48,6 +52,31 @@ class App extends Component {
 
             <div style={{fontStyle: 'italic', color: 'gray', position: 'absolute', transform: 'translate(18vw, -15px)'}}>
               "We die in the dark so you can live in the light"
+            </div>
+          </div>
+          <div className="app-intro__infiltration">
+            <div style={{fontSize: '2vw', paddingBottom: '10px', letterSpacing: '2px'}}>INFILTRATION</div>
+            <div style={{width: '50vw', paddingBottom: '50px', color: '#BBBBBB'}}> The game splits two teams into groups of squads, sub-divided into fireteams. Squad Leaders communicate with each other to coordinate attacks and hold positions in objectives. The game favors teamwork and will punish players who do not work together.</div>
+            <div style={{backgroundColor: '#0f1114', alignContent: 'center', marginBottom: '1vw', width: '100vw', display: 'flex', flexDirection: 'row'}}>
+              <div style={{color: '#BBBBBB', padding: '3vw', width: '20vw'}}>
+                The map used in infiltration uses many techniques to keep gameplay as immersive as possible.
+                <ul>
+                  <li style={{marginBottom: '5px'}}>Packets, allowing for a finer manipulation of control</li>
+                  <li style={{marginBottom: '5px'}}>Core vanilla shaders, keeping the item facing the player clientside, and mapping the correct textures to the player arms</li>
+                  <li style={{marginBottom: '5px'}}>A resource pack, allowing for the map asset to be used</li>
+                </ul>
+              </div>
+              <img src={PaintedMap} style={{width: '47.32vw', height: '35vw'}}/>
+            </div>
+            <div style={{display: 'flex', flexDirection: 'row'}}>
+              <div style ={{display: 'flex', flexDirection:'column'}}>
+                <img src={CodeVSH} style={{width: '26vw', height: '26vw', borderRadius: '5%', marginBottom: '1vw'}} />
+                <img src={CodeFSH} style={{width: '26.8vw', height: '20vw', borderRadius: '5%'}} />
+              </div>
+              <div style={{width: '50vw', color: '#BBBBBB', padding: '10vw'}}>
+                Utilizing the OpenGL pipeline, it becomes possible to create all sorts of screen effects. Shown here is the setup for a health vignette, found in the files rendertype_text.vsh and rendertype_text.fsh.
+                <img src={DamageVignette} style={{width: '35vw', height: '20vw', marginTop: '1vw', borderRadius: '5%'}} />
+              </div>
             </div>
           </div>
         </div>
