@@ -1,7 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1040b792.css",
-    "main.js": "/static/js/main.6a919a5a.js",
+    "main.css": "/static/css/main.223c789f.css",
+    "main.js": "/static/js/main.7ff99718.js",
+    "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.a54b055b.chunk.js",
+    "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.640eda69.chunk.js",
+    "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.b1d2fb5c.chunk.js",
+    "reactPlayerMux.js": "/static/js/reactPlayerMux.76c82b51.chunk.js",
+    "reactPlayerFacebook.js": "/static/js/reactPlayerFacebook.11d508ee.chunk.js",
+    "reactPlayerStreamable.js": "/static/js/reactPlayerStreamable.0c8b6c62.chunk.js",
+    "reactPlayerWistia.js": "/static/js/reactPlayerWistia.2ebe8940.chunk.js",
+    "reactPlayerTwitch.js": "/static/js/reactPlayerTwitch.01f516f1.chunk.js",
+    "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.5b85df75.chunk.js",
+    "reactPlayerMixcloud.js": "/static/js/reactPlayerMixcloud.eef5aeaa.chunk.js",
+    "reactPlayerVidyard.js": "/static/js/reactPlayerVidyard.8e20e224.chunk.js",
+    "reactPlayerKaltura.js": "/static/js/reactPlayerKaltura.afab6feb.chunk.js",
+    "reactPlayerFilePlayer.js": "/static/js/reactPlayerFilePlayer.dcf56e1f.chunk.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.c2fce386.chunk.js",
     "static/media/damage_vignette.png": "/static/media/damage_vignette.f0c52b2fab96d63bf245.png",
     "static/media/project-mtf-facility.png": "/static/media/project-mtf-facility.d9fcf9afa136ae450eb6.png",
     "static/media/project-mtf-outside.png": "/static/media/project-mtf-outside.498d382cda37da95adc9.png",
@@ -11,12 +25,28 @@
     "static/media/project-mtf.png": "/static/media/project-mtf.0da824526fe1c1693708.png",
     "static/media/code-vsh.png": "/static/media/code-vsh.b6b7e494cce11d63b857.png",
     "static/media/code-fsh.png": "/static/media/code-fsh.f16cfbc64add9478ce37.png",
+    "static/media/project-structure.png": "/static/media/project-structure.ec1945daabf610265bf1.png",
+    "static/media/chat-modes.png": "/static/media/chat-modes.cc21d93e12f36d4fa875.png",
     "index.html": "/index.html",
-    "main.1040b792.css.map": "/static/css/main.1040b792.css.map",
-    "main.6a919a5a.js.map": "/static/js/main.6a919a5a.js.map"
+    "main.223c789f.css.map": "/static/css/main.223c789f.css.map",
+    "main.7ff99718.js.map": "/static/js/main.7ff99718.js.map",
+    "reactPlayerYouTube.a54b055b.chunk.js.map": "/static/js/reactPlayerYouTube.a54b055b.chunk.js.map",
+    "reactPlayerSoundCloud.640eda69.chunk.js.map": "/static/js/reactPlayerSoundCloud.640eda69.chunk.js.map",
+    "reactPlayerVimeo.b1d2fb5c.chunk.js.map": "/static/js/reactPlayerVimeo.b1d2fb5c.chunk.js.map",
+    "reactPlayerMux.76c82b51.chunk.js.map": "/static/js/reactPlayerMux.76c82b51.chunk.js.map",
+    "reactPlayerFacebook.11d508ee.chunk.js.map": "/static/js/reactPlayerFacebook.11d508ee.chunk.js.map",
+    "reactPlayerStreamable.0c8b6c62.chunk.js.map": "/static/js/reactPlayerStreamable.0c8b6c62.chunk.js.map",
+    "reactPlayerWistia.2ebe8940.chunk.js.map": "/static/js/reactPlayerWistia.2ebe8940.chunk.js.map",
+    "reactPlayerTwitch.01f516f1.chunk.js.map": "/static/js/reactPlayerTwitch.01f516f1.chunk.js.map",
+    "reactPlayerDailyMotion.5b85df75.chunk.js.map": "/static/js/reactPlayerDailyMotion.5b85df75.chunk.js.map",
+    "reactPlayerMixcloud.eef5aeaa.chunk.js.map": "/static/js/reactPlayerMixcloud.eef5aeaa.chunk.js.map",
+    "reactPlayerVidyard.8e20e224.chunk.js.map": "/static/js/reactPlayerVidyard.8e20e224.chunk.js.map",
+    "reactPlayerKaltura.afab6feb.chunk.js.map": "/static/js/reactPlayerKaltura.afab6feb.chunk.js.map",
+    "reactPlayerFilePlayer.dcf56e1f.chunk.js.map": "/static/js/reactPlayerFilePlayer.dcf56e1f.chunk.js.map",
+    "reactPlayerPreview.c2fce386.chunk.js.map": "/static/js/reactPlayerPreview.c2fce386.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1040b792.css",
-    "static/js/main.6a919a5a.js"
+    "static/css/main.223c789f.css",
+    "static/js/main.7ff99718.js"
   ]
 }
