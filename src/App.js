@@ -138,7 +138,7 @@ class App extends Component {
             The system uses the Paper’s Adventure API for chat components.
              To allow for more detailed rank symbols, each chat message uses a line for the player’s username, and another for the message.
               The space to the left allows for up to a 14x14 pixel symbol.
-               Additionally, I create a web request to the site “insert site” and cache the resulting player head that is returned after using it in the message.
+               Additionally, I create a web request to the site minotar.net and cache the resulting player head that is returned after using it in the message.
             </div>
           </div>
         </div>
