@@ -39,7 +39,7 @@
 }
 
 .app-intro {
-  height: 155vw;
+  height: 5500px;
   font-size: large;
   text-align: left;
   color: #fafbfc;
@@ -49,7 +49,6 @@
   display: flex;
   justify-content: center;
   padding: 30px;
-  font-size: 1vw;
 }
 
 .app-intro__infiltration {
@@ -58,7 +57,6 @@
   align-items: center;
   justify-content: center;
   padding-top: 20vw;
-  font-size: 1vw;
 }
 
 @keyframes app-airship-float {
