@@ -13,6 +13,7 @@ import CodeVSH from './images/code-vsh.png';
 import DamageVignette from './images/damage_vignette.png';
 import ProjectStructure from './images/project-structure.png';
 import ChatModes from './images/chat-modes.png';
+import Name from './images/name.png';
 
 class App extends Component {
   render() {
@@ -21,13 +22,16 @@ class App extends Component {
     return (
       <div className="app">
         <div className="app-header">
-          <title style={{letterSpacing: '2px', display: 'flex', color: 'white', alignContent: 'center', justifyContent: 'center', paddingLeft: '130px', paddingTop: '80px', fontSize: '50px'}}>
+
+          {/* <title style={{letterSpacing: '2px', display: 'flex', color: 'white', alignContent: 'center', justifyContent: 'center', paddingLeft: '200px', paddingTop: '80px', fontSize: '50px'}}>
             EVAN
-          </title>
-          <div style={{marginLeft: '10vw', marginRight: '10vw', display: 'flex', color: 'white', alignSelf: 'center', justifySelf: 'center', paddingLeft: '130px', paddingTop: '50px', fontSize: '20px', maxWidth: '30rem'}}>
+          </title> */}
+          <img src={Name} style={{height: '60%', width: '250px', paddingLeft: '200px', paddingTop: '20px', alignSelf: 'center', display: 'flex', justifyContent: 'center'}} />
+          <div style={{marginLeft: '10vw', marginRight: '10vw', display: 'flex', color: 'white', alignSelf: 'center', justifySelf: 'center', paddingLeft: '200px', paddingTop: '30px', fontSize: '20px', maxWidth: '30rem'}}>
           A motivated developer seeking to elevate skills and take on new challenges.
           </div>
-          <img src={Airship} className="app-airship" style={{height: '60%', paddingTop: '20px', width: '600px', marginLeft: '15%'}}/>
+          {/* <img src={Cloud} className="app-clouds" style={{height: '100%', paddingTop: '20px', width:'2000px', position: 'absolute', zIndex: '0'}} /> */}
+          <img src={Airship} className="app-flag-on-mountain" style={{height: '60%', paddingTop: '20px', width: '600px', marginLeft: '15%', zIndex: '1'}}/>
         </div>
 
         <div className = "app-divider" />

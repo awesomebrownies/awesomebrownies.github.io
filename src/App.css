@@ -5,16 +5,23 @@
   text-align: center;
 }
 
-.app-airship {
-  animation: app-airship-float infinite 8s ease-in-out;
+.app-flag-on-mountain {
+  animation-iteration-count: 1;
+  animation: app-slide-in 0.5s ease-out;
   height: 80px;
+  overflow: hidden;
+}
+
+.app-clouds {
+  animation: clouds infinite 240s linear;
+  overflow: hidden;
 }
 
 .app-header {
   background-image: linear-gradient(#869bb6, #59697c);
   color: white;
   display: flex;
-  margin-left: -150px;
+  margin-left: -200px;
   flex-direction: column;
   height: '100vh'
 }
@@ -60,8 +67,11 @@
   padding-top: 20vw;
 }
 
-@keyframes app-airship-float {
-  0% { transform: translate(0, 0%); }
-  50% { transform: translate(0, 0%); }
-  100% { transform: translate(0, 0%); }
+@keyframes app-slide-in {
+  0% { transform: translate(-2%, 0%); }
+  100% { transform: translate(0%, 0%); }
+}
+@keyframes clouds {
+  0% { transform: translate(-70%, 0%)}
+  100% {transform: translate(90%, 0%)}
 }
