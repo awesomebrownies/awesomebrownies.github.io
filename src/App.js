@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 import { FaDiscord, FaGithub } from "react-icons/fa";
 import ProjectMTFOutside from './images/project-mtf-outside.png';
 import ProjectMTFFacility from './images/project-mtf-facility.png';
-import Airship from './images/airship.png';
+import Airship from './images/flag-on-mountain.png';
 import ProjectMTF from './images/project-mtf.png';
 import ProjectMTFAward from './images/project-mtf-award.png';
 import PaintedMap from './images/painted-map.png';
@@ -21,17 +21,13 @@ class App extends Component {
     return (
       <div className="app">
         <div className="app-header">
-          <div className="app-header__socials">
-            <a href="https://github.com/awesomebrownies" target="_blank" style={{margin: '50%'}}>
-                <FaGithub className="app-header__socials--button" style={{color: '#fafbfc', height: '3vw', width: '3vw'}}/>
-            </a>
-
-            <a href="https://discordapp.com/users/495612155677376534" target="_blank" style={{margin: '50%'}}>
-              <FaDiscord className="app-header__socials--button" style={{color: '#fafbfc', height: '3vw', width: '3vw'}} />
-            </a>
+          <title style={{letterSpacing: '2px', display: 'flex', color: 'white', alignContent: 'center', justifyContent: 'center', paddingLeft: '130px', paddingTop: '80px', fontSize: '50px'}}>
+            EVAN
+          </title>
+          <div style={{marginLeft: '10vw', marginRight: '10vw', display: 'flex', color: 'white', alignSelf: 'center', justifySelf: 'center', paddingLeft: '130px', paddingTop: '50px', fontSize: '20px', maxWidth: '30rem'}}>
+          A motivated developer seeking to elevate skills and take on new challenges.
           </div>
-
-          <img src={Airship} className="app-airship" style={{height: '60%', width: '60%', margin: '3%'}}/>
+          <img src={Airship} className="app-airship" style={{height: '60%', paddingTop: '20px', width: '600px', marginLeft: '15%'}}/>
         </div>
 
         <div className = "app-divider" />
@@ -67,13 +63,6 @@ class App extends Component {
             During the hackathon event our team participated by creating a new gamemode from scratch, primarily developing during spring break.
             We won in the overall category due to fantastic visuals, cutscenes, sound effects, and a squad based mission system with an intriguing storyline.
             Unfortunately further visuals and videos cannot be produced since the project files have been lost.
-            </div>
-            <div style={{color: 'gray', paddingTop: '50px', textAlign: 'center'}}>
-                Skip to the timestamp 27:30 to watch the ProjectMTF section
-              </div>
-            <div style={{display: 'flex', justifyContent: 'center', alignContent: 'center', paddingTop: '5px'}}>
-              <ReactPlayer
-              url="https://www.youtube.com/live/O2N1xzvC5pM?si=-ruiQn1pEWx1T2Yh&t=1647" controls={true} />
             </div>
           </div>
 

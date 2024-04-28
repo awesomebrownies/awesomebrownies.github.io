@@ -1,7 +1,7 @@
 .app {
   display: flex;
   flex-direction: column;
-  background-color: #14171a;
+  background-color: #262c30;
   text-align: center;
 }
 
@@ -11,17 +11,18 @@
 }
 
 .app-header {
-  background-color: #24292e;
+  background-image: linear-gradient(#869bb6, #59697c);
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: center
+  margin-left: -150px;
+  flex-direction: column;
+  height: '100vh'
 }
 
 .app-divider {
   width: 100vw;
-  height: 1px;
-  background-color: rgb(59, 59, 59);
+  height: 2px;
+  background-color: rgb(255, 255, 255);
 }
 
 .app-header__socials {
@@ -61,6 +62,6 @@
 
 @keyframes app-airship-float {
   0% { transform: translate(0, 0%); }
-  50% { transform: translate(0, -5%); }
+  50% { transform: translate(0, 0%); }
   100% { transform: translate(0, 0%); }
 }
