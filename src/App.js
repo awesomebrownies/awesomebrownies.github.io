@@ -39,7 +39,7 @@ class App extends Component {
         <div className="app-intro">
           <div className="app-intro__projectmtf">
 
-            <div style={{margin: '20px', width: '40%', color: '#BBBBBB'}}>Mobile Task Force Operatives are tasked with the objective of carrying out certain missions, studying the anomalies, and gathering intel for the foundation.
+            <div style={{marginTop: '20px', maxWidth: '60rem', color: '#BBBBBB'}}>Mobile Task Force Operatives are tasked with the objective of carrying out certain missions, studying the anomalies, and gathering intel for the foundation.
             
               <ul>
                 <li style={{marginBottom: '5px'}}>Immersive sound effects for the facility, forest, and helicopter drop-off</li>
@@ -56,14 +56,14 @@ class App extends Component {
             <img src={ProjectMTFOutside} style={{width: '26.6vw', height: '15vw', borderRadius: '5%'}} />
           </div>
 
-          <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', color: '#BBBBBB', paddingLeft: '25vw', paddingRight: '25vw'}}>
+          <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', color: '#BBBBBB', paddingLeft: '5vw', paddingRight: '5vw'}}>
             <div style={{textAlign: 'center', fontStyle: 'italic', paddingBottom: '70px', color: 'gray'}}>
               "We die in the dark so you can live in the light"
             </div>
             <div style={{display: 'flex', justifyContent: 'center'}}>
               <img src={ProjectMTFAward} style={{width: '6vw', height: '6vw'}} />
             </div>
-            <div>
+            <div style={{maxWidth: '50rem', alignSelf: 'center'}}>
             During the hackathon event our team participated by creating a new gamemode from scratch, primarily developing during spring break.
             We won in the overall category due to fantastic visuals, cutscenes, sound effects, and a squad based mission system with an intriguing storyline.
             Unfortunately further visuals and videos cannot be produced since the project files have been lost.
@@ -98,7 +98,7 @@ class App extends Component {
               <ReactPlayer url="https://youtu.be/M3xHyf7THW4" controls={true} style={{paddingRight: '30px'}} />
               <ReactPlayer url="https://youtu.be/uUrKWwJQe50" controls={true} />
             </div>
-            <ul style={{paddingLeft: '25vw', paddingRight: '25vw', paddingTop: '30px', paddingBottom: '10px', color: '#BBBBBB'}}>
+            <ul style={{paddingLeft: '5vw', paddingRight: '5vw',maxWidth: '50rem', paddingTop: '30px', paddingBottom: '10px', color: '#BBBBBB'}}>
               <li style={{paddingBottom: '10px'}}>
                 AABB Raycasting:
                  To optimize each shot, the algorithm raycasts to all targets within view and tests for hits.
@@ -122,12 +122,12 @@ class App extends Component {
               <ReactPlayer url="https://youtu.be/k0wZm0jhGYg" controls={true} />   
             </div>
 
-            <div style={{color: '#BBBBBB', paddingTop: '30px', paddingLeft: '25vw', paddingRight: '25vw'}}>
+            <div style={{color: '#BBBBBB', paddingTop: '30px', paddingLeft: '5vw', paddingRight: '5vw', maxWidth: '50rem'}}>
             The menu is an object oriented system that allows for simplistic setups, direction based local coordinate conversions, and action customizability.
             </div>
 
             <img src={ChatModes} style={{width: '29.37 vw', height: '10vw', paddingTop: '150px'}} />
-            <div style={{display: 'flex', flexDirection: 'column', alignContent: 'center', justifyItems: 'center', paddingTop: '30px', marginLeft: '25vw', marginRight: '25vw', color: '#BBBBBB'}}>
+            <div style={{display: 'flex', flexDirection: 'column', alignContent: 'center', justifyItems: 'center', paddingTop: '30px', marginLeft: '5vw', marginRight: '5vw', maxWidth: '50rem', color: '#BBBBBB'}}>
             The system uses the Paper’s Adventure API for chat components.
              To allow for more detailed rank symbols, each chat message uses a line for the player’s username, and another for the message.
               The space to the left allows for up to a 14x14 pixel symbol.
