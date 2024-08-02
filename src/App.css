@@ -1,3 +1,19 @@
+.list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.link {
+  color: #1e90ff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+.link:hover {
+  text-decoration: underline;
+}
+.link:visited {
+  color: #1b7fe4;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -28,7 +44,7 @@
 
 .app-divider {
   width: 100vw;
-  height: 2px;
+  height: 100px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -47,7 +63,6 @@
 }
 
 .app-intro {
-  height: 5500px;
   font-size: large;
   text-align: left;
   color: #fafbfc;
