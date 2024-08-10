@@ -133,6 +133,7 @@
   margin: 3%;
   position:absolute;
   left: 0;
+  padding-top: 30px;
 }
 .app-header__socials--button {
   transition: 0.1s;
@@ -144,7 +145,7 @@
 .app-projects {
   font-size: large;
   text-align: left;
-  color: #fafbfc;
+  color: #F5F5F5;
   display: flex;
   flex-direction: column;
 }
