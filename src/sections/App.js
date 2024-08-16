@@ -17,7 +17,7 @@ class App extends Component {
         <div className="parallax">
           {/* Landing Page */}
           <div className="parallax__layer parallax__layer--deep" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: 'linear-gradient(#869bb6, #ff9d00)', height: '100vh'}}>
-                <img src={Name} style={{height: '135px', width: '472.5px', paddingTop: '15vh'}}/>
+                <img src={Name} style={{height: 'auto', width: '100%', maxWidth: '472.5px', paddingTop: '15vh'}}/>
           </div>
 
           <div className="parallax__layer parallax__layer--far" style={{paddingTop: '100vh'}}>
@@ -29,11 +29,11 @@ class App extends Component {
           </div>
 
           <div className="parallax__layer parallax__layer--mid" style={{display: 'flex', justifyContent: 'center', paddingTop: '100vh'}}>
-            <img src={FlagOnMountain} style={{width: '600px', height: '600px', transform: 'translateY(-590px)'}} />
+            <img src={FlagOnMountain} style={{width: '100vw', height: '100vw', maxWidth: '600px', maxHeight: '600px', transform: 'translateY(max(-100vw,-600px))'}} />
           </div>
 
           <div className="parallax__layer parallax__layer--close" style={{display: 'flex', justifyContent: 'center', paddingTop: '100vh'}}>
-            <img src={MountainForeground} style={{width: '600px', height: '600px', filter: 'brightness(75%)', transform: 'translateY(-590px)'}} />
+            <img src={MountainForeground} style={{width: '100vw', height: '100vw', maxWidth: '600px', maxHeight: '600px', filter: 'brightness(75%)', transform: 'translateY(max(-100vw,-600px))'}} />
           </div>
 
 
@@ -103,52 +103,52 @@ class App extends Component {
                 <div id="Server-Side_Mods" style={{fontSize:'30px', paddingLeft: '20px'}}>Server-Side Mods</div>
               </div>
 
-              <div style={{display: 'flex', flexDirection: 'row', marginTop: '50px'}}>
-                <div style={{width: '5vw', writingMode: 'vertical-rl', textOrientation: 'upright', letterSpacing: '-8px', paddingRight: '8px', fontSize: '20px', fontFamily: 'Jetbrains', color: 'gray', alignContent: 'flex-end', backgroundColor: '#24292e', paddingTop: '10px'}}>NOVEMBER 26 2022</div>
-                <div style={{width: '95vw', paddingBottom: '50px', backgroundColor: '#24292e'}}>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'center'}}>
-                    <div id="Infiltration" style={{fontSize: '30px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Infiltration</div>
-                    <div style={{display: 'flex', flexDirection: 'row', paddingTop: '5px', flexWrap: 'wrap'}}>
-                      <div style={{backgroundColor: 'darkorange', padding: '3px'}}>Java</div>
-                      <div style={{backgroundColor: 'coral', padding: '3px'}}>GLSL</div>
-                      <div style={{backgroundColor: 'darksalmon', padding: '3px'}}>MongoDB</div>
+              <div className="project-section">
+                <div className="vertical-text">NOVEMBER 26 2022</div>
+                <div>
+                  <div className="title-section">
+                    <div id="Infiltration" className="title">Infiltration</div>
+                    <div className="tag-section">
+                      <div className="tag" style={{backgroundColor: 'darkorange'}}>Java</div>
+                      <div className="tag" style={{backgroundColor: 'coral'}}>GLSL</div>
+                      <div className="tag" style={{backgroundColor: 'darksalmon'}}>MongoDB</div>
                     </div>
                   </div>
-                  <div style ={{paddingRight: '2.5vw', paddingTop: '50px', color: '#E0E0E0'}}>
+                  <div style ={{paddingTop: '50px', color: '#E0E0E0', paddingLeft: 'max(35px, 5vw)', paddingRight: '5vw'}}>
                     A gamemode aimed to bring a tactical side to combat.
                   </div>
-                  <div style = {{paddingRight: '2.5vw', paddingTop: '10px', color: '#E0E0E0'}}>
+                  <div style = {{paddingTop: '10px', color: '#E0E0E0', paddingLeft: 'max(35px, 5vw)', paddingRight: '5vw'}}>
                     The game splits players into groups of squads sub-divided into fireteams. Squad Leaders communicate with each other to coordinate attacks and hold positions in objectives. The game favors teamwork and will punish players who do not work together.
                   </div>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'left', paddingTop: '50px'}}>
+                  <div style={{paddingLeft: 'max(30px, 5vw)', paddingRight: '5%', display: 'flex', flexDirection: 'row', justifyContent: 'left', paddingTop: '50px'}}>
                     <div id="Firearms" style={{fontSize: '25px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Firearms</div>
                   </div>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'left', paddingTop: '50px'}}>
+                  <div style={{paddingLeft: 'max(30px, 5vw)', paddingRight: '5%',display: 'flex', flexDirection: 'row', justifyContent: 'left', paddingTop: '50px'}}>
                     <div id="Helicopters" style={{fontSize: '25px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Helicopters</div>
                   </div>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'left', paddingTop: '50px'}}>
+                  <div style={{paddingLeft: 'max(30px, 5vw)', paddingRight: '5%',display: 'flex', flexDirection: 'row', justifyContent: 'left', paddingTop: '50px'}}>
                     <div id="Spatial_Interface" style={{fontSize: '25px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Spatial Interface</div>
                   </div>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'left', paddingTop: '50px'}}>
+                  <div style={{paddingLeft: 'max(30px, 5vw)', paddingRight: '5%',display: 'flex', flexDirection: 'row', justifyContent: 'left', paddingTop: '50px'}}>
                     <div id="Screen_Effects" style={{fontSize: '25px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Screen Effects</div>
                   </div>
                 </div>
               </div>
 
-              <div style={{display: 'flex', flexDirection: 'row', marginTop: '50px'}}>
-                <div style={{width: '5vw', writingMode: 'vertical-rl', textOrientation: 'upright', letterSpacing: '-8px', paddingRight: '8px', fontSize: '20px', fontFamily: 'Jetbrains', color: 'gray', alignContent: 'flex-end', backgroundColor: '#24292e', paddingTop: '10px'}}>OCTOBER 24 2021</div>
-                <div style={{width: '95vw', paddingBottom: '50px', backgroundColor: '#24292e'}}>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'center'}}>
-                    <div id="Project:_MTF" style={{fontSize: '30px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Project: MTF</div>
-                    <div style={{display: 'flex', flexDirection: 'row', paddingTop: '5px', flexWrap: 'wrap'}}>
-                      <div style={{backgroundColor: 'darkorange', padding: '3px'}}>Java</div>
-                      <div style={{backgroundColor: 'darksalmon', padding: '3px'}}>Skript</div>
+              <div className="project-section">
+                <div className="vertical-text">OCTOBER 24 2021</div>
+                <div>
+                  <div className="title-section">
+                    <div id="Project:_MTF" className="title">Project: MTF</div>
+                    <div className="tag-section">
+                      <div className="tag" style={{backgroundColor: 'darkorange'}}>Java</div>
+                      <div className="tag" style={{backgroundColor: 'darksalmon'}}>Skript</div>
                     </div>
                   </div>
-                  <div style ={{paddingRight: '2.5vw', paddingTop: '50px', fontStyle: 'italic', color: '#E0E0E0'}}>
+                  <div style ={{paddingLeft: 'max(35px, 5vw)', paddingRight: '5vw', paddingTop: '50px', fontStyle: 'italic', color: '#E0E0E0'}}>
                     "We die in the dark so you can live in the light"
                   </div>
-                  <div style = {{paddingRight: '2.5vw', paddingTop: '10px', color: '#E0E0E0'}}>
+                  <div style = {{paddingLeft: 'max(35px, 5vw)', paddingRight: '5vw', paddingTop: '10px', color: '#E0E0E0'}}>
                   Based off of Task Force on Roblox, it is a game mode where you play as a Mobile Task Force Operative with the objective of carrying out a certain mission or task for the SCP foundation. The missions involve several SCPs and other groups of interest. Operatives are tasked to go on dangerous missions to study the anomalies and gather intel for the foundation.</div>
                   <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'left', paddingTop: '50px'}}>
                     <div id="Story" style={{fontSize: '25px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Story</div>
@@ -156,13 +156,13 @@ class App extends Component {
                 </div>
               </div>
 
-              <div style={{display: 'flex', flexDirection: 'row', marginTop: '50px'}}>
-                <div style={{width: '5vw', writingMode: 'vertical-rl', textOrientation: 'upright', letterSpacing: '-8px', paddingRight: '8px', fontSize: '20px', fontFamily: 'Jetbrains', color: 'gray', alignContent: 'flex-end', backgroundColor: '#24292e', paddingTop: '10px'}}>DECEMBER 12 2020</div>
-                <div style={{width: '95vw', paddingBottom: '50px', backgroundColor: '#24292e'}}>
-                  <div style={{display: 'flex', flexDirection: 'row', width: '90vw', justifyContent: 'center'}}>
-                    <div id="Unsecured" style={{fontSize: '30px', fontFamily: 'Jetbrains', height: '30px', paddingRight: '20px'}}>Unsecured</div>
-                    <div style={{display: 'flex', flexDirection: 'row', paddingTop: '5px', flexWrap: 'wrap'}}>
-                      <div style={{backgroundColor: 'darksalmon', padding: '3px'}}>Skript</div>
+              <div className="project-section">
+                <div className="vertical-text">DECEMBER 12 2020</div>
+                <div>
+                  <div className="title-section">
+                    <div id="Unsecured" className="title">Unsecured</div>
+                    <div className="tag-section">
+                      <div className="tag" style={{backgroundColor: 'darksalmon'}}>Skript</div>
                     </div>
                   </div>
                   <div style ={{paddingRight: '2.5vw', paddingTop: '50px'}}>

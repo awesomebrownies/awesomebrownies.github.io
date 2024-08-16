@@ -3,6 +3,7 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   -webkit-perspective: 300px;
   perspective: 300px;
 }
@@ -71,6 +72,54 @@
 }
 
 
+.project-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  background-color: #24292e;
+}
+
+.vertical-text {
+  position: absolute;
+  height: 300px; 
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: -8px;
+  padding-right: 8px;
+  font-size: 20px;
+  font-family: Jetbrains;
+  color: gray;
+  align-content: flex-end;
+  padding-top: 8px;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.title {
+  padding-left: max(30px, 5vw);
+  padding-right: 5%;
+  font-size: 30px;
+  font-family: 'Jetbrains';
+  height: 30px;
+  padding-right: 20px;
+}
+
+.tag-section {
+  display: flex;
+  flex-direction: row; 
+  padding-top: 8px;
+}
+.tag {
+  padding: 3px;
+}
+
+
+
 .number {
   color: 'black';
   padding-left: 20px;
@@ -97,6 +146,7 @@
   flex-direction: column;
   background-color: #262c30;
   text-align: center;
+  overflow: hidden;
 }
 
 .app-flag-on-mountain {
