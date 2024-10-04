@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.9d3482d5.css",
-    "main.js": "/static/js/main.66fa98c2.js",
+    "main.js": "/static/js/main.dc7d5f41.js",
     "static/media/LinLibertine_RI.ttf": "/static/media/LinLibertine_RI.ffcb58bf2f63eff7afa4.ttf",
     "static/media/JetBrainsMonoNL-Regular.ttf": "/static/media/JetBrainsMonoNL-Regular.432a7b1048bd216e8990.ttf",
     "static/media/name.png": "/static/media/name.ba543be32c3ac380dade.png",
-    "static/media/foreground.png": "/static/media/foreground.a81d6e75c43857b6cd61.png",
+    "static/media/foreground.png": "/static/media/foreground.a0e91424d7010c3a5e0b.png",
     "static/media/mountain-foreground.png": "/static/media/mountain-foreground.90869b9f3ee062377962.png",
+    "static/media/bottom.png": "/static/media/bottom.0fefb7bda5bf9b0d5054.png",
     "static/media/flag-on-mountain.png": "/static/media/flag-on-mountain.9e68f391cdee6d12d589.png",
     "static/media/OmbudsmanAlternate-6YvDq.otf": "/static/media/OmbudsmanAlternate-6YvDq.16cc09dbd9f5d34be1be.otf",
     "static/media/clouds.png": "/static/media/clouds.5bf3e98d32c8d31dc6b7.png",
     "index.html": "/index.html",
     "main.9d3482d5.css.map": "/static/css/main.9d3482d5.css.map",
-    "main.66fa98c2.js.map": "/static/js/main.66fa98c2.js.map"
+    "main.dc7d5f41.js.map": "/static/js/main.dc7d5f41.js.map"
   },
   "entrypoints": [
     "static/css/main.9d3482d5.css",
-    "static/js/main.66fa98c2.js"
+    "static/js/main.dc7d5f41.js"
   ]
 }
